@@ -546,5 +546,10 @@ module.exports = {
 ```
 
 Congrats. You now have a fully working badge system integrated.
-Made with ❤️ by Oᴍ !!!#9649
+<br> 
 Create pull request if you fixed bug or improved!
+<br> 
+Made with ❤️ by Oᴍ !!!#9649
+
+
+
