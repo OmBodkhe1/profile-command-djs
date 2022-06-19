@@ -104,6 +104,7 @@ module.exports = {
 ```js
 const { MessageEmbed, CommandInteraction, Client, MessageAttachment } = require('discord.js');
 const config = require('path of config');
+const owner = "Owner ID"
 const profile = require('path of schema')
 
 module.exports = {
@@ -227,7 +228,7 @@ module.exports = {
         const subcommand = interaction.options.getSubcommand()
         const badge = interaction.options.getString('badge')
         const member = interaction.options.getUser('user')
-        const owner = "Owner ID"
+     
         const data = await profile.findOne({ id: member.id })
         if (!data) await profile.create({ id: member.id })
 
