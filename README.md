@@ -1,6 +1,6 @@
 # Badge System
 
-This guide will explain you how to create a Badge System (Profile Command)for your Discord.js Bot.
+This guide will explain you how to create a Badge System (Profile Command) for your Discord.js Bot.
 
 
 
